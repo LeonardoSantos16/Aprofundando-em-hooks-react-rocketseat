@@ -27,7 +27,7 @@ export const HeaderContainer = styled.header`
                 border-bottom: 3px solid ${(props) => props.theme['green-500']};
             }
 
-            &.active{ // estilizando o link
+            &.active{ // estilizando o link quando clickado
                 color: ${(props) => props.theme['green-500']};
             }
         }
